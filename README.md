@@ -76,7 +76,7 @@ TypeScript · Zod schemas · Vitest · Playwright-core (read-only market/browser
 
 ## Author
 
-[Samuel Meidinger](https://github.com/SamMeidinger04) — Calgary, AB · Cybersecurity (SAIT BTech)
+Calgary, AB · Cybersecurity (SAIT BTech)
 
 ## License
 

@@ -25,7 +25,7 @@
     "pumpfun",
     "polymarket"
   ],
-  "author": "Samuel Meidinger",
+  "author": "",
   "license": "MIT",
   "engines": {
     "node": ">=20"
