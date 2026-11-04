@@ -1,0 +1,10 @@
+
+# artifacts
+*.png
+*.html
+node_modules/
+dist/
+data/**
+!.gitkeep
+.env
+*.pem

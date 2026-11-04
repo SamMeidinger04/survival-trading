@@ -1,0 +1,562 @@
+{
+  "kind": "polymarket_autonomous_paper",
+  "agentDecision": {
+    "action": "propose",
+    "proposal": {
+      "id": "01b80527-a296-4e95-b915-31f3a8c2fedc",
+      "createdAt": "2026-09-21T20:50:43.202Z",
+      "market": "polymarket",
+      "strategy": "autonomous_aggressive_v1",
+      "side": "no",
+      "instrument": "demo-poly-btc-1h-move",
+      "instrumentName": "Will BTC be above current price in 24 hours? (demo)",
+      "sizeUsd": 32.4825,
+      "entryPrice": 0.44999999999999996,
+      "thesis": "Polymarket \"Will BTC be above current price in 24 hours? (demo)\" yes=0.550 model=0.535 source=fixture",
+      "evidenceFor": [
+        "not fully decided (price away from extremes)",
+        "strong volume",
+        "adequate liquidity for paper size"
+      ],
+      "evidenceAgainst": [
+        "no clear model edge"
+      ],
+      "estimatedEdge": "EV≈$-3.2483 p=0.75 score=75",
+      "score": 75,
+      "exitPlan": {
+        "takeProfitPct": 25,
+        "stopLossPct": 20,
+        "timeStopHours": 24,
+        "rationale": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z"
+      },
+      "timing": {
+        "entryTimestamp": "2026-09-21T20:50:43.202Z",
+        "expectedExitTimestamp": "2026-09-22T04:50:43.202Z",
+        "maximumExitTimestamp": "2026-09-22T20:50:43.202Z",
+        "expectedHoldingHours": 8,
+        "maximumHoldingHours": 24,
+        "reasonMaterializesWithin48h": "Resolution by 2026-09-22T20:50:43.189Z within 48h."
+      },
+      "decision": {
+        "currentTotalEquityUsd": 99.965,
+        "amountRiskedUsd": 32.4825,
+        "percentOfEquityRisked": 32.4939,
+        "maximumPossibleLossUsd": 32.4825,
+        "expectedReturnUsd": 6.4965,
+        "estimatedProbabilityOfSuccess": 0.75,
+        "expectedValueUsd": -3.2483,
+        "reasonForPositionSize": "aggressive: risking 32.49% of equity ($32.4825) based on score=75 to maximize total equity",
+        "alternativesConsidered": [
+          "no trade",
+          "size at 25.0% of cash",
+          "size at 100.0% of cash",
+          "concentrate elsewhere"
+        ],
+        "evidenceSupporting": [
+          "not fully decided (price away from extremes)",
+          "strong volume",
+          "adequate liquidity for paper size"
+        ],
+        "evidenceAgainst": [
+          "no clear model edge"
+        ],
+        "exitConditions": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z",
+        "forcedExitTime": "2026-09-22T20:50:43.202Z"
+      },
+      "resolutionDeadline": "2026-09-22T20:50:43.189Z",
+      "officialResolutionSource": "Polymarket official resolution (demo BTC 24h market)",
+      "leverage": 1,
+      "borrowedFunds": false,
+      "flags": {
+        "washTrading": false,
+        "fakeVolume": false,
+        "spoofing": false,
+        "manipulation": false
+      },
+      "researchRef": "de0ec3af-542d-487d-9615-f6590acb9bfb",
+      "metadata": {
+        "signals": [
+          "not fully decided (price away from extremes)",
+          "strong volume",
+          "adequate liquidity for paper size"
+        ],
+        "risks": [
+          "no clear model edge"
+        ],
+        "dataSource": "fixture"
+      }
+    },
+    "reason": "aggressive: risking 32.49% of equity ($32.4825) based on score=75 to maximize total equity"
+  },
+  "proposal": {
+    "id": "01b80527-a296-4e95-b915-31f3a8c2fedc",
+    "createdAt": "2026-09-21T20:50:43.202Z",
+    "market": "polymarket",
+    "strategy": "autonomous_aggressive_v1",
+    "side": "no",
+    "instrument": "demo-poly-btc-1h-move",
+    "instrumentName": "Will BTC be above current price in 24 hours? (demo)",
+    "sizeUsd": 32.4825,
+    "entryPrice": 0.44999999999999996,
+    "thesis": "Polymarket \"Will BTC be above current price in 24 hours? (demo)\" yes=0.550 model=0.535 source=fixture",
+    "evidenceFor": [
+      "not fully decided (price away from extremes)",
+      "strong volume",
+      "adequate liquidity for paper size"
+    ],
+    "evidenceAgainst": [
+      "no clear model edge"
+    ],
+    "estimatedEdge": "EV≈$-3.2483 p=0.75 score=75",
+    "score": 75,
+    "exitPlan": {
+      "takeProfitPct": 25,
+      "stopLossPct": 20,
+      "timeStopHours": 24,
+      "rationale": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z"
+    },
+    "timing": {
+      "entryTimestamp": "2026-09-21T20:50:43.202Z",
+      "expectedExitTimestamp": "2026-09-22T04:50:43.202Z",
+      "maximumExitTimestamp": "2026-09-22T20:50:43.202Z",
+      "expectedHoldingHours": 8,
+      "maximumHoldingHours": 24,
+      "reasonMaterializesWithin48h": "Resolution by 2026-09-22T20:50:43.189Z within 48h."
+    },
+    "decision": {
+      "currentTotalEquityUsd": 99.965,
+      "amountRiskedUsd": 32.4825,
+      "percentOfEquityRisked": 32.4939,
+      "maximumPossibleLossUsd": 32.4825,
+      "expectedReturnUsd": 6.4965,
+      "estimatedProbabilityOfSuccess": 0.75,
+      "expectedValueUsd": -3.2483,
+      "reasonForPositionSize": "aggressive: risking 32.49% of equity ($32.4825) based on score=75 to maximize total equity",
+      "alternativesConsidered": [
+        "no trade",
+        "size at 25.0% of cash",
+        "size at 100.0% of cash",
+        "concentrate elsewhere"
+      ],
+      "evidenceSupporting": [
+        "not fully decided (price away from extremes)",
+        "strong volume",
+        "adequate liquidity for paper size"
+      ],
+      "evidenceAgainst": [
+        "no clear model edge"
+      ],
+      "exitConditions": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z",
+      "forcedExitTime": "2026-09-22T20:50:43.202Z"
+    },
+    "resolutionDeadline": "2026-09-22T20:50:43.189Z",
+    "officialResolutionSource": "Polymarket official resolution (demo BTC 24h market)",
+    "leverage": 1,
+    "borrowedFunds": false,
+    "flags": {
+      "washTrading": false,
+      "fakeVolume": false,
+      "spoofing": false,
+      "manipulation": false
+    },
+    "researchRef": "de0ec3af-542d-487d-9615-f6590acb9bfb",
+    "metadata": {
+      "signals": [
+        "not fully decided (price away from extremes)",
+        "strong volume",
+        "adequate liquidity for paper size"
+      ],
+      "risks": [
+        "no clear model edge"
+      ],
+      "dataSource": "fixture"
+    }
+  },
+  "result": {
+    "status": "approved",
+    "proposal": {
+      "id": "01b80527-a296-4e95-b915-31f3a8c2fedc",
+      "createdAt": "2026-09-21T20:50:43.202Z",
+      "market": "polymarket",
+      "strategy": "autonomous_aggressive_v1",
+      "side": "no",
+      "instrument": "demo-poly-btc-1h-move",
+      "instrumentName": "Will BTC be above current price in 24 hours? (demo)",
+      "sizeUsd": 32.4825,
+      "entryPrice": 0.44999999999999996,
+      "thesis": "Polymarket \"Will BTC be above current price in 24 hours? (demo)\" yes=0.550 model=0.535 source=fixture",
+      "evidenceFor": [
+        "not fully decided (price away from extremes)",
+        "strong volume",
+        "adequate liquidity for paper size"
+      ],
+      "evidenceAgainst": [
+        "no clear model edge"
+      ],
+      "estimatedEdge": "EV≈$-3.2483 p=0.75 score=75",
+      "score": 75,
+      "exitPlan": {
+        "takeProfitPct": 25,
+        "stopLossPct": 20,
+        "timeStopHours": 24,
+        "rationale": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z"
+      },
+      "timing": {
+        "entryTimestamp": "2026-09-21T20:50:43.202Z",
+        "expectedExitTimestamp": "2026-09-22T04:50:43.202Z",
+        "maximumExitTimestamp": "2026-09-22T20:50:43.202Z",
+        "expectedHoldingHours": 8,
+        "maximumHoldingHours": 24,
+        "reasonMaterializesWithin48h": "Resolution by 2026-09-22T20:50:43.189Z within 48h."
+      },
+      "decision": {
+        "currentTotalEquityUsd": 99.965,
+        "amountRiskedUsd": 32.4825,
+        "percentOfEquityRisked": 32.4939,
+        "maximumPossibleLossUsd": 32.4825,
+        "expectedReturnUsd": 6.4965,
+        "estimatedProbabilityOfSuccess": 0.75,
+        "expectedValueUsd": -3.2483,
+        "reasonForPositionSize": "aggressive: risking 32.49% of equity ($32.4825) based on score=75 to maximize total equity",
+        "alternativesConsidered": [
+          "no trade",
+          "size at 25.0% of cash",
+          "size at 100.0% of cash",
+          "concentrate elsewhere"
+        ],
+        "evidenceSupporting": [
+          "not fully decided (price away from extremes)",
+          "strong volume",
+          "adequate liquidity for paper size"
+        ],
+        "evidenceAgainst": [
+          "no clear model edge"
+        ],
+        "exitConditions": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z",
+        "forcedExitTime": "2026-09-22T20:50:43.202Z"
+      },
+      "resolutionDeadline": "2026-09-22T20:50:43.189Z",
+      "officialResolutionSource": "Polymarket official resolution (demo BTC 24h market)",
+      "leverage": 1,
+      "borrowedFunds": false,
+      "flags": {
+        "washTrading": false,
+        "fakeVolume": false,
+        "spoofing": false,
+        "manipulation": false
+      },
+      "researchRef": "de0ec3af-542d-487d-9615-f6590acb9bfb",
+      "metadata": {
+        "signals": [
+          "not fully decided (price away from extremes)",
+          "strong volume",
+          "adequate liquidity for paper size"
+        ],
+        "risks": [
+          "no clear model edge"
+        ],
+        "dataSource": "fixture"
+      }
+    },
+    "decision": {
+      "approved": true,
+      "sizeUsd": 32.4825,
+      "availableCashUsd": 64.965,
+      "totalEquityUsd": 99.965,
+      "percentOfEquity": 32.493872855499426,
+      "survivalState": "NORMAL",
+      "notes": [
+        "objective=MAXIMIZE_TOTAL_EQUITY equity=99.965 cash=64.965 infoState=NORMAL agent=ALIVE",
+        "sizing=STRATEGY_OWNED (no fixed % caps; no drawdown auto-cut/halt except DEAD)",
+        "poly_resolution_in=24.00h",
+        "strategy_size_pct_of_equity=32.4939% (not capped by risk engine)"
+      ]
+    },
+    "fill": {
+      "proposalId": "01b80527-a296-4e95-b915-31f3a8c2fedc",
+      "fillId": "7fe57457-e80e-4824-8a53-0432cddabca9",
+      "filledAt": "2026-09-21T20:50:43.202Z",
+      "fillPrice": 0.44999999999999996,
+      "sizeUsd": 32.4825,
+      "feesUsd": 0.032483,
+      "simulated": true,
+      "notes": "Paper/sim fill — no on-chain or CLOB order sent"
+    },
+    "position": {
+      "id": "eb177d2e-5e72-42c6-b2c0-99a8d8901fee",
+      "proposalId": "01b80527-a296-4e95-b915-31f3a8c2fedc",
+      "market": "polymarket",
+      "strategy": "autonomous_aggressive_v1",
+      "side": "no",
+      "instrument": "demo-poly-btc-1h-move",
+      "instrumentName": "Will BTC be above current price in 24 hours? (demo)",
+      "sizeUsd": 32.4825,
+      "entryPrice": 0.44999999999999996,
+      "currentMarketValueUsd": 32.4825,
+      "openedAt": "2026-09-21T20:50:43.202Z",
+      "forcedExitAt": "2026-09-22T20:50:43.202Z",
+      "maximumHoldingHours": 24,
+      "timing": {
+        "entryTimestamp": "2026-09-21T20:50:43.202Z",
+        "expectedExitTimestamp": "2026-09-22T04:50:43.202Z",
+        "maximumExitTimestamp": "2026-09-22T20:50:43.202Z",
+        "expectedHoldingHours": 8,
+        "maximumHoldingHours": 24,
+        "reasonMaterializesWithin48h": "Resolution by 2026-09-22T20:50:43.189Z within 48h."
+      },
+      "thesis": "Polymarket \"Will BTC be above current price in 24 hours? (demo)\" yes=0.550 model=0.535 source=fixture",
+      "evidenceFor": [
+        "not fully decided (price away from extremes)",
+        "strong volume",
+        "adequate liquidity for paper size"
+      ],
+      "evidenceAgainst": [
+        "no clear model edge"
+      ],
+      "estimatedEdge": "EV≈$-3.2483 p=0.75 score=75",
+      "decision": {
+        "currentTotalEquityUsd": 99.965,
+        "amountRiskedUsd": 32.4825,
+        "percentOfEquityRisked": 32.4939,
+        "maximumPossibleLossUsd": 32.4825,
+        "expectedReturnUsd": 6.4965,
+        "estimatedProbabilityOfSuccess": 0.75,
+        "expectedValueUsd": -3.2483,
+        "reasonForPositionSize": "aggressive: risking 32.49% of equity ($32.4825) based on score=75 to maximize total equity",
+        "alternativesConsidered": [
+          "no trade",
+          "size at 25.0% of cash",
+          "size at 100.0% of cash",
+          "concentrate elsewhere"
+        ],
+        "evidenceSupporting": [
+          "not fully decided (price away from extremes)",
+          "strong volume",
+          "adequate liquidity for paper size"
+        ],
+        "evidenceAgainst": [
+          "no clear model edge"
+        ],
+        "exitConditions": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z",
+        "forcedExitTime": "2026-09-22T20:50:43.202Z"
+      },
+      "exitPlan": {
+        "takeProfitPct": 25,
+        "stopLossPct": 20,
+        "timeStopHours": 24,
+        "rationale": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z"
+      },
+      "unrealizedPnlUsd": 0,
+      "status": "open",
+      "resolutionDeadline": "2026-09-22T20:50:43.189Z",
+      "officialResolutionSource": "Polymarket official resolution (demo BTC 24h market)",
+      "metadata": {
+        "fillId": "7fe57457-e80e-4824-8a53-0432cddabca9",
+        "feesUsd": 0.032483,
+        "signals": [
+          "not fully decided (price away from extremes)",
+          "strong volume",
+          "adequate liquidity for paper size"
+        ],
+        "risks": [
+          "no clear model edge"
+        ],
+        "dataSource": "fixture"
+      }
+    },
+    "state": {
+      "cashUsd": 32.450017,
+      "bankrollUsd": 32.450017,
+      "peakEquityUsd": 100,
+      "peakBankrollUsd": 100,
+      "openPositions": [
+        {
+          "id": "0dd366b1-2ed2-493c-bcf8-f9ca9e32cf78",
+          "proposalId": "da67b121-4a31-4f61-8ccb-d48efd5cfe03",
+          "market": "pumpfun",
+          "strategy": "autonomous_balanced_v1",
+          "side": "buy",
+          "instrument": "DemoPumpMint11111111111111111111111111111",
+          "instrumentName": "SDCAT (Survival Demo Cat)",
+          "sizeUsd": 35,
+          "entryPrice": 0.000042,
+          "currentMarketValueUsd": 35,
+          "openedAt": "2026-09-21T20:50:43.197Z",
+          "forcedExitAt": "2026-09-22T20:50:43.197Z",
+          "maximumHoldingHours": 24,
+          "timing": {
+            "entryTimestamp": "2026-09-21T20:50:43.197Z",
+            "expectedExitTimestamp": "2026-09-22T00:50:43.197Z",
+            "maximumExitTimestamp": "2026-09-22T20:50:43.197Z",
+            "expectedHoldingHours": 4,
+            "maximumHoldingHours": 24,
+            "reasonMaterializesWithin48h": "Short-horizon bonding-curve move expected within ≤48h; forced exit enforced."
+          },
+          "decision": {
+            "currentTotalEquityUsd": 100,
+            "amountRiskedUsd": 35,
+            "percentOfEquityRisked": 35,
+            "maximumPossibleLossUsd": 35,
+            "expectedReturnUsd": 10.5,
+            "estimatedProbabilityOfSuccess": 0.8,
+            "expectedValueUsd": 1.4,
+            "reasonForPositionSize": "balanced: risking 35.00% of equity ($35) based on score=80 to maximize total equity",
+            "alternativesConsidered": [
+              "no trade",
+              "size at 17.5% of cash",
+              "size at 70.0% of cash",
+              "concentrate elsewhere"
+            ],
+            "evidenceSupporting": [
+              "fresh launch (<2h)",
+              "market cap in early-stage band",
+              "meaningful 24h volume"
+            ],
+            "evidenceAgainst": [
+              "model uncertainty"
+            ],
+            "exitConditions": "TP +40% / SL -25% / hard exit by 2026-09-22T20:50:43.197Z",
+            "forcedExitTime": "2026-09-22T20:50:43.197Z"
+          },
+          "thesis": "Pump.fun scan of SDCAT: mcap≈$42000, vol≈$8500, source=fixture",
+          "evidenceFor": [
+            "fresh launch (<2h)",
+            "market cap in early-stage band",
+            "meaningful 24h volume"
+          ],
+          "evidenceAgainst": [
+            "model uncertainty"
+          ],
+          "estimatedEdge": "EV≈$1.4 p=0.8 score=80",
+          "exitPlan": {
+            "takeProfitPct": 40,
+            "stopLossPct": 25,
+            "timeStopHours": 24,
+            "rationale": "TP +40% / SL -25% / hard exit by 2026-09-22T20:50:43.197Z"
+          },
+          "unrealizedPnlUsd": 0,
+          "status": "open",
+          "metadata": {
+            "fillId": "034702af-7a3d-411c-8dd7-37ebf536ec30",
+            "feesUsd": 0.035,
+            "signals": [
+              "fresh launch (<2h)",
+              "market cap in early-stage band",
+              "meaningful 24h volume"
+            ],
+            "risks": [],
+            "dataSource": "fixture"
+          }
+        },
+        {
+          "id": "eb177d2e-5e72-42c6-b2c0-99a8d8901fee",
+          "proposalId": "01b80527-a296-4e95-b915-31f3a8c2fedc",
+          "market": "polymarket",
+          "strategy": "autonomous_aggressive_v1",
+          "side": "no",
+          "instrument": "demo-poly-btc-1h-move",
+          "instrumentName": "Will BTC be above current price in 24 hours? (demo)",
+          "sizeUsd": 32.4825,
+          "entryPrice": 0.44999999999999996,
+          "currentMarketValueUsd": 32.4825,
+          "openedAt": "2026-09-21T20:50:43.202Z",
+          "forcedExitAt": "2026-09-22T20:50:43.202Z",
+          "maximumHoldingHours": 24,
+          "timing": {
+            "entryTimestamp": "2026-09-21T20:50:43.202Z",
+            "expectedExitTimestamp": "2026-09-22T04:50:43.202Z",
+            "maximumExitTimestamp": "2026-09-22T20:50:43.202Z",
+            "expectedHoldingHours": 8,
+            "maximumHoldingHours": 24,
+            "reasonMaterializesWithin48h": "Resolution by 2026-09-22T20:50:43.189Z within 48h."
+          },
+          "thesis": "Polymarket \"Will BTC be above current price in 24 hours? (demo)\" yes=0.550 model=0.535 source=fixture",
+          "evidenceFor": [
+            "not fully decided (price away from extremes)",
+            "strong volume",
+            "adequate liquidity for paper size"
+          ],
+          "evidenceAgainst": [
+            "no clear model edge"
+          ],
+          "estimatedEdge": "EV≈$-3.2483 p=0.75 score=75",
+          "decision": {
+            "currentTotalEquityUsd": 99.965,
+            "amountRiskedUsd": 32.4825,
+            "percentOfEquityRisked": 32.4939,
+            "maximumPossibleLossUsd": 32.4825,
+            "expectedReturnUsd": 6.4965,
+            "estimatedProbabilityOfSuccess": 0.75,
+            "expectedValueUsd": -3.2483,
+            "reasonForPositionSize": "aggressive: risking 32.49% of equity ($32.4825) based on score=75 to maximize total equity",
+            "alternativesConsidered": [
+              "no trade",
+              "size at 25.0% of cash",
+              "size at 100.0% of cash",
+              "concentrate elsewhere"
+            ],
+            "evidenceSupporting": [
+              "not fully decided (price away from extremes)",
+              "strong volume",
+              "adequate liquidity for paper size"
+            ],
+            "evidenceAgainst": [
+              "no clear model edge"
+            ],
+            "exitConditions": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z",
+            "forcedExitTime": "2026-09-22T20:50:43.202Z"
+          },
+          "exitPlan": {
+            "takeProfitPct": 25,
+            "stopLossPct": 20,
+            "timeStopHours": 24,
+            "rationale": "TP +25% / SL -20% / hard exit by resolution or 2026-09-22T20:50:43.202Z"
+          },
+          "unrealizedPnlUsd": 0,
+          "status": "open",
+          "resolutionDeadline": "2026-09-22T20:50:43.189Z",
+          "officialResolutionSource": "Polymarket official resolution (demo BTC 24h market)",
+          "metadata": {
+            "fillId": "7fe57457-e80e-4824-8a53-0432cddabca9",
+            "feesUsd": 0.032483,
+            "signals": [
+              "not fully decided (price away from extremes)",
+              "strong volume",
+              "adequate liquidity for paper size"
+            ],
+            "risks": [
+              "no clear model edge"
+            ],
+            "dataSource": "fixture"
+          }
+        }
+      ],
+      "closedPositions": [],
+      "survivalState": "NORMAL",
+      "agentStatus": "ALIVE",
+      "tradingEnabled": true,
+      "tradingPermanentlyDisabled": false,
+      "tradingDisabledUntilHumanApproval": false,
+      "humanApprovalFlag": false,
+      "updatedAt": "2026-09-21T20:50:43.203Z",
+      "version": 3
+    }
+  },
+  "survivalAfter": {
+    "survivalState": "NORMAL",
+    "agentStatus": "ALIVE",
+    "cashUsd": 32.450017,
+    "totalEquityUsd": 99.932517,
+    "peakEquityUsd": 100,
+    "drawdownPct": 0.06748299999999574,
+    "sizeMultiplier": 1,
+    "canOpenPositions": true,
+    "permanentlyDisabled": false,
+    "requiresHumanApproval": false,
+    "tradingEnabled": true,
+    "message": "ALIVE / NORMAL — maximize total equity (info DD 0.07%)",
+    "bankrollUsd": 32.450017,
+    "peakBankrollUsd": 100,
+    "objective": "MAXIMIZE_TOTAL_EQUITY"
+  }
+}

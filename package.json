@@ -1,0 +1,44 @@
+{
+  "name": "survival-trading",
+  "version": "1.0.0",
+  "description": "Paper trading: smart-wallet tracking + copy-trades (sim only)",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx src/cli/demo.ts",
+    "status": "tsx src/cli/status.ts",
+    "scan": "tsx src/cli/scan.ts",
+    "autonomy-live": "tsx src/cli/autonomyLive.ts",
+    "trial-cycle": "tsx src/cli/trialCycle.ts",
+    "trial-status": "SURVIVAL_DATA_DIR=data/trial tsx src/cli/status.ts",
+    "copy-cycle": "tsx src/cli/copyCycle.ts",
+    "copy-learn": "tsx src/cli/copyLearn.ts",
+    "copy-status": "node -e \"const fs=require('fs');const p='COPYTRADE_STATUS.md';console.log(fs.existsSync(p)?fs.readFileSync(p,'utf8'):'No COPYTRADE_STATUS.md yet \u2014 run npm run copy-cycle')\""
+  },
+  "keywords": [
+    "trading",
+    "simulation",
+    "risk",
+    "pumpfun",
+    "polymarket"
+  ],
+  "author": "Samuel Meidinger",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^2.1.9"
+  }
+}
